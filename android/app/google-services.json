@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "673244392188",
+    "project_id": "landbridge-ca921",
+    "storage_bucket": "landbridge-ca921.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673244392188:android:65dbb4627d2387008c4579",
+        "android_client_info": {
+          "package_name": "com.example.assessment"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCa1xrPXQ82kKledMg6A8dgkxuvxSpKv5o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

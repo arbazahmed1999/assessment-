@@ -21,11 +21,11 @@ class Screen1View extends GetView<Screen1Controller> {
         centerTitle: true,
         foregroundColor: Colors.black,
       ),
-      // Whole screen is a column with scrollable form + fixed footer
+ 
       body: SafeArea(
         child: Column(
           children: [
-            // Main scrollable form
+    
             Expanded(
               child: SingleChildScrollView(
                 padding: const EdgeInsets.symmetric(

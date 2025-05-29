@@ -122,7 +122,7 @@ class Screen3View extends StatelessWidget {
               if (!Get.isRegistered<Screen6Controller>()) {
                 Get.put(
                   Screen6Controller(),
-                ); // Register controller before using
+                ); 
               }
               Get.find<Screen6Controller>().updateAssessmentData(
                 selectedSkill,

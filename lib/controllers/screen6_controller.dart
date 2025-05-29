@@ -10,7 +10,7 @@ class Screen6Controller extends GetxController {
     selectedIcon.value = icon;
   }
 
-  var remainingSeconds = 60.obs; // 1 minute
+  var remainingSeconds = 60.obs; 
   Timer? _timer;
 
   @override

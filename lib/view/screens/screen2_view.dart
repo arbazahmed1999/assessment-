@@ -75,7 +75,7 @@ void showOtpPopup(BuildContext context, String mobileNumber) {
                                   alignment: PlaceholderAlignment.middle,
                                   child: GestureDetector(
                                     onTap: () {
-                                      // Add your edit logic here
+                                      Get.back();
                                     },
                                     child: const Icon(
                                       Icons.edit_outlined,
@@ -89,7 +89,6 @@ void showOtpPopup(BuildContext context, String mobileNumber) {
                           ),
                           const SizedBox(height: 25),
 
-                          // OTP Box Row
                           Obx(
                             () => Column(
                               children: [

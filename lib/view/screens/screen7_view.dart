@@ -82,7 +82,7 @@ class Screen7View extends StatelessWidget {
                 ],
               ),
               SizedBox(height: 40),
-              // Grid Section
+
               Wrap(
                 children: [
                   resultBox(
@@ -100,12 +100,11 @@ class Screen7View extends StatelessWidget {
 
               const Spacer(),
 
-              // Done Button
               SizedBox(
                 width: double.infinity,
                 child: ElevatedButton(
                   onPressed: () {
-                    Get.toNamed('/screen1');
+                    Get.offAllNamed('/screen1');
                   },
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.blueAccent,

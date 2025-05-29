@@ -55,7 +55,7 @@ class Screen2Controller extends GetxController {
     } else {
       otpError.value = '';
       Get.back();
-      // Get.snackbar('Success', 'OTP Verified Successfully');
+
       Get.to(() => Screen3View());
     }
   }

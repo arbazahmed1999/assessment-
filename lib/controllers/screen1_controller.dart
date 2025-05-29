@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import '../view/screens/screen2_view.dart'; // Make sure this import exists and is correct
+import '../view/screens/screen2_view.dart'; 
 
 class Screen1Controller extends GetxController {
   final nameController = TextEditingController();
